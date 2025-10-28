@@ -33,16 +33,12 @@ const navItems: NavItem[] = [
   { label: 'Dashboard', icon: LayoutDashboard, href: '/' },
   { label: 'Users', icon: Users, href: '/users' },
   { label: 'Suppliers', icon: UserPlus, href: '/suppliers' },
-  { label: 'Brands', icon: Tag, href: '/brands' },
   { label: 'Products', icon: Package, href: '/products' },
-  { label: 'Purchase', icon: ShoppingBag, href: '/purchase' },
   { label: 'TOG', icon: RefreshCw, href: '/tog' },
   { label: 'Inventory', icon: Archive, href: '/inventory' },
   { label: 'BOM', icon: Box, href: '/bom' },
   { label: 'Customers', icon: UserCircle, href: '/customers' },
   { label: 'Sales', icon: ShoppingCart, href: '/sales' },
-  { label: 'Expenses', icon: CreditCard, href: '/expenses' },
-  { label: 'Accounts', icon: Briefcase, href: '/accounts' },
 ];
 
 export function Sidebar() {
